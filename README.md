@@ -1,3 +1,15 @@
+# issues-tracker
+
+Create and track your issues easily with this application.
+
+## Feature
+
+1. Create open, In-progress, closed issues
+2. Assign issues to anyone
+3. Sort issues according to your need
+4. Sentry Integration
+5. Visualize issues in dashboard
+
 ## Getting Started
 
 To get started, follow these steps:
@@ -8,4 +20,3 @@ To get started, follow these steps:
 4. Run `npm install` to install the dependencies.
 5. Run `npx prisma migrate dev` to generate your database tables.
 6. Run `npm run dev` to start the web server.
-# issues-tracker
