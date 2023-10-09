@@ -1,19 +1,16 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-   async headers() {
-      return [
-         {
-            source: '/:path*',
-            headers: [
-               { key: 'referrer-policy', value: 'no-referrer'}
-            ]
-         }
-      ]
-   }
-}
+  async headers() {
+    return [
+      {
+        source: "/:path*",
+        headers: [{ key: "referrer-policy", value: "no-referrer" }],
+      },
+    ];
+  },
+};
 
-module.exports = nextConfig
-
+module.exports = nextConfig;
 
 // Injected content via Sentry wizard below
 
@@ -27,8 +24,8 @@ module.exports = withSentryConfig(
 
     // Suppresses source map uploading logs during build
     silent: true,
-    org: "code-with-mosh",
-    project: "issue-tracker",
+    org: "piyushyadav0191",
+    project: "issues-tracker-nextjs",
   },
   {
     // For all available options, see:
